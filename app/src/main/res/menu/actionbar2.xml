@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/other_trening2"
+        android:icon="@drawable/ic_baseline_keyboard_backspace_24"
+        app:showAsAction="ifRoom"
+
+        />
+
+    <item
+
+        android:id="@+id/add_button2"
+        android:icon="@drawable/add_new"
+        app:showAsAction="ifRoom"
+
+        />
+
+</menu>

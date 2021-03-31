@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".new_trening1"
+    android:background="#14213d"
+
+    >
+
+    <EditText
+        android:id="@+id/add_name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Nazwa ćwiczenia"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/add_set"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Serie"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/add_rep"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Potworzenia"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/add_weight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:hint="Ostatni cięzar"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="#fca311"
+        android:id="@+id/save_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ZAPISZ"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
